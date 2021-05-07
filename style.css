@@ -1,0 +1,80 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+body{
+          width: 100%;
+          height: 100%;
+          background: #161616;
+          color: white;
+          overflow-y: hidden;
+          overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+          display: none;
+}
+
+.block{
+          width: 580px;
+          height: 460px;
+          margin: 10px 300px 20px 80px;
+          font-family: 'Playfair Display SC', serif;
+          font-size: 23px;
+          font-weight: lighter;
+          position: relative;
+}
+
+.one{
+          background-image: url(./image/img-one.jpeg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+}
+
+.two{
+          background-image: url(./image/img-two.jpeg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+}
+
+.three{
+          background-image: url(./image/img-three.jpeg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+}
+
+.four{
+          background-image: url(./image/img-four.jpeg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+}
+
+.five{
+          background-image: url(./image/img-five.jpeg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+}
+
+.container{
+          margin-top: 200px;
+          margin-left: 200px;
+}
+
+.one h1,.three h1, .five h1{
+          position: absolute;
+          right: -50px;
+          top: 60px;
+}
+
+.two h1, .four h1{
+          position: absolute;
+          left: -50px;
+          bottom: 60px;
+}
